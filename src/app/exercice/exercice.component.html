@@ -1,0 +1,17 @@
+<img [src]="img "  width="100" height="100">
+<h1>EXERCICE 1</h1>
+<P>la somme de {{a}} et {{b}} = {{a+b}}</P>
+<button type="button"   (click)="afficher()">Calcule</button>
+<br>
+<input id="name" [(ngModel)]="name" placeholder="Entrez votre nom">
+<h5>voici ce que tu as ecrit {{name}}</h5>
+<p>____________________________________________</p>
+<h1>EXERCICE 2</h1>
+<h5>nom </h5><input id="nom" [(ngModel)]="nom" placeholder="Entrez votre nom">
+<br>
+<h5>age </h5><input id="age" [(ngModel)]="age" placeholder="Entrez votre age">
+<h5> {{nom}} {{age}}</h5>
+
+<button type="button"   (click)="effacer()">effacer</button>
+
+
