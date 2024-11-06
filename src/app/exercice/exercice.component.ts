@@ -19,7 +19,7 @@ afficher():void {
   alert("la somme de "+this.a+" et "+this.b+" = "+this.s);
 }
 effacer():void {
-this.nom="";  
+this.nom="";
 this.age="";
 }
 }

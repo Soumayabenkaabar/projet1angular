@@ -1,0 +1,31 @@
+.hotel-list {
+  display: grid; /* Utilisation de CSS Grid */
+  grid-template-columns: repeat(3, 1fr); /* Crée une grille de 3 colonnes égales */
+  gap: 20px; /* Espacement entre les éléments */
+  padding: 20px;
+}
+
+.hotel-card {
+  /* Si vous voulez limiter la taille des cartes, vous pouvez ajouter une largeur maximale ici */
+  max-width: 300px; /* La largeur des cartes peut être ajustée */
+}
+
+.card-img-top {
+  width: 100%;         /* L'image prend toute la largeur de la carte */
+  height: 150px;       /* Hauteur fixe pour uniformiser la taille des images */
+  object-fit: cover;   /* Recadre l'image pour la faire remplir l'espace sans déformation */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
